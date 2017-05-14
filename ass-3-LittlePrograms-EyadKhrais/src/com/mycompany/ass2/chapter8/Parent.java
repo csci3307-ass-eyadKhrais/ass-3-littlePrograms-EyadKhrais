@@ -1,0 +1,14 @@
+package com.mycompany.ass2.chapter8;
+
+public class Parent extends GrandParent {
+	protected float wealth;
+	
+	public Parent() {
+		super();
+	}
+	
+	public Parent(float _debt, String _name, String _lastName, float _wealth) {
+		super(_debt, _name, _lastName);
+		wealth = _wealth;
+	}
+}
